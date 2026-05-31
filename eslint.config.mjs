@@ -11,11 +11,13 @@ export default defineConfig([
     files: ['**/*.{js,jsx}'],
     plugins: {
       react,
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
     },
+    extends: [
+      js.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
     languageOptions: {
-      ecmaVersion: 'latest',
       globals: {
         ...globals.browser,
         ...globals.node,
@@ -23,12 +25,8 @@ export default defineConfig([
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
     rules: {
-      ...js.configs.recommended.rules,
-      ...reactHooks.configs.flat.recommended.rules,
-      ...reactRefresh.configs.vite.rules,
       'react/jsx-uses-vars': 'error',
       'react/jsx-uses-react': 'error',
-      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     },
   },
 ]);

@@ -1,4 +1,3 @@
-import React from 'react';
 import { MotionDiv } from './MotionWrapper';
 import AnimatedNumber from './AnimateNumber';
 

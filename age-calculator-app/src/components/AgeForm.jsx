@@ -1,4 +1,3 @@
-import React from 'react';
 import { MotionDiv, MotionForm } from './MotionWrapper';
 import InputField from './InputField';
 import ArrowIcon from '../assets/svg/icon-arrow.svg';
