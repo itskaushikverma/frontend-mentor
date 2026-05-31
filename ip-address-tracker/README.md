@@ -15,14 +15,13 @@
   </p>
 
   <h4>
-    <a href="https://ipaddresstracket-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
+    <a href="https://ipaddresstracker-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
     <span> · </span>
 <!-- VARIABLE_SECTION_1_START -->
     <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/ip-address-tracker">📁 Repository</a>
 <!-- VARIABLE_SECTION_1_END -->
     <span> · </span>
     <a href="https://www.frontendmentor.io/solutions/ip-address-tracker-main-fSC5EfIAz3">🎯 Challenge</a>
-
   </h4>
 
 </div>
@@ -158,7 +157,7 @@ src/
 
 This project is deployed on Netlify:
 
-- <a href="https://ipaddresstracket-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://ipaddresstracket-kv.netlify.app/</a>
+- <a href="https://ipaddresstracker-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://ipaddresstracker-kv.netlify.app/</a>
 
 To create a production build locally:
 
