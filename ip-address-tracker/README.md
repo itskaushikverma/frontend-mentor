@@ -20,7 +20,6 @@
 <!-- VARIABLE_SECTION_1_START -->
     <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/ip-address-tracker">📁 Repository</a>
 <!-- VARIABLE_SECTION_1_END -->
-
     <span> · </span>
     <a href="https://www.frontendmentor.io/solutions/ip-address-tracker-main-fSC5EfIAz3">🎯 Challenge</a>
 

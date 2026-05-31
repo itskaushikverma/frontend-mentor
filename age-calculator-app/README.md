@@ -20,7 +20,6 @@
 <!-- VARIABLE_SECTION_1_START -->
     <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/age-calculator-app">📁 Repository</a>
 <!-- VARIABLE_SECTION_1_END -->
-
     <span> · </span>
     <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">🎯 Challenge</a>
 
