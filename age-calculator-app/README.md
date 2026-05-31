@@ -18,10 +18,14 @@
     <a href="https://agecalculator-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
     <span> · </span>
 <!-- VARIABLE_SECTION_1_START -->
+
     <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/age-calculator-app">📁 Repository</a>
+
 <!-- VARIABLE_SECTION_1_END -->
+
     <span> · </span>
     <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">🎯 Challenge</a>
+
   </h4>
 
 </div>
@@ -106,7 +110,7 @@ Clone the project:
 <!-- VARIABLE_SECTION_2_START -->
 
 ```bash
-git clone https://github.com/itskaushikverma/age-calculator-app.git
+git clone https://github.com/itskaushikverma/frontend-mentor.git
 ```
 
 <!-- VARIABLE_SECTION_2_END -->
@@ -206,11 +210,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
   
   <p><em>Building AI tools that turn long documents into clear decisions.</em></p>
 
-[![Email](https://img.shields.io/badge/Email-kaushikverma321@gmail.com%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:kaushikverma321@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Website-https://www.kaushikverma.com-000000?style=for-the-badge&logo=vercel)](https://www.kaushikverma.com)
-[![GitHub](https://img.shields.io/badge/GitHub-itskaushikverma-181717?style=for-the-badge&logo=github)](https://github.com/itskaushikverma)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/itskaushikverma-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/itskaushikverma)
-[![Twitter](https://img.shields.io/badge/Twitter-https://x.com/SilentK68296830-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/SilentK68296830)
+[![Email](https://img.shields.io/badge/Email-kaushikverma321@gmail.com%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:kaushikverma321@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-https://www.kaushikverma.com-000000?style=flat-square&logo=vercel)](https://www.kaushikverma.com)
+[![GitHub](https://img.shields.io/badge/GitHub-itskaushikverma-181717?style=flat-square&logo=github)](https://github.com/itskaushikverma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/itskaushikverma-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/itskaushikverma)
+[![Twitter](https://img.shields.io/badge/Twitter-https://x.com/SilentK68296830-1DA1F2?style=flat-square&logo=twitter)](https://x.com/SilentK68296830)
 
   <p>Open to product feedback, collaboration, and thoughtful conversation.</p>
 </div>
