@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="./public/favicon.svg" alt="Age Calculator logo" width="180" height="auto" />
-  <h1>Age Calculator App</h1>
+  <img src="./public/favicon.svg" alt="IP Address Tracker logo" width="180" height="auto" />
+  <h1>IP Address Tracker</h1>
 
   <p>
-    A polished solution to the Frontend Mentor Age Calculator challenge, built with React, Vite, Tailwind CSS, and modern form validation.
+    A polished solution to the Frontend Mentor IP Address Tracker challenge, built with React, Vite, Tailwind CSS, and modern form validation.
   </p>
 
   <p>
@@ -15,13 +15,13 @@
   </p>
 
   <h4>
-    <a href="https://agecalculator-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
+    <a href="https://ipaddresstracket-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
     <span> · </span>
 <!-- VARIABLE_SECTION_1_START -->
-    <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/age-calculator-app">📁 Repository</a>
+    <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/ip-address-tracker">📁 Repository</a>
 <!-- VARIABLE_SECTION_1_END -->
     <span> · </span>
-    <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">🎯 Challenge</a>
+    <a href="https://www.frontendmentor.io/solutions/ip-address-tracker-main-fSC5EfIAz3">🎯 Challenge</a>
   </h4>
 
 </div>
@@ -79,16 +79,11 @@ The project focuses on:
 
 Users can:
 
-- Enter day, month, and year values to calculate age instantly.
-- See animated age output in years, months, and days.
-- Get validation feedback when:
-  - any field is empty
-  - values are not numeric
-  - day is outside 1 to 31
-  - month is outside 1 to 12
-  - year is in the future
-- Experience a responsive layout optimized for mobile and desktop.
-- See hover and focus states for interactive elements.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
+- Handle missing or invalid API keys gracefully with a custom input fallback
 
 <a id="getting-started"></a>
 
@@ -106,7 +101,7 @@ Clone the project:
 <!-- VARIABLE_SECTION_2_START -->
 
 ```bash
-git clone https://github.com/itskaushikverma/age-calculator-app.git
+git clone https://github.com/itskaushikverma/frontend-mentor.git
 ```
 
 <!-- VARIABLE_SECTION_2_END -->
@@ -150,12 +145,10 @@ src/
   assets/
     svg/
   components/
-    AgeForm.jsx
-    AgeItem.jsx
-    AgeResult.jsx
-    AnimateNumber.jsx
-    InputField.jsx
+    InfoCard.jsx
+    MapSection.jsx
     MotionWrapper.jsx
+    TopBanner.jsx
 ```
 
 <a id="deployment"></a>
@@ -164,7 +157,7 @@ src/
 
 This project is deployed on Netlify:
 
-- <a href="https://agecalculator-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://agecalculator-kv.netlify.app/</a>
+- <a href="https://ipaddresstracket-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://ipaddresstracket-kv.netlify.app/</a>
 
 To create a production build locally:
 
@@ -206,11 +199,11 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
   
   <p><em>Building AI tools that turn long documents into clear decisions.</em></p>
 
-[![Email](https://img.shields.io/badge/Email-kaushikverma321@gmail.com%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:kaushikverma321@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Website-https://www.kaushikverma.com-000000?style=for-the-badge&logo=vercel)](https://www.kaushikverma.com)
-[![GitHub](https://img.shields.io/badge/GitHub-itskaushikverma-181717?style=for-the-badge&logo=github)](https://github.com/itskaushikverma)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/itskaushikverma-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/itskaushikverma)
-[![Twitter](https://img.shields.io/badge/Twitter-https://x.com/SilentK68296830-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/SilentK68296830)
+[![Email](https://img.shields.io/badge/Email-kaushikverma321@gmail.com%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:kaushikverma321@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-https://www.kaushikverma.com-000000?style=flat-square&logo=vercel)](https://www.kaushikverma.com)
+[![GitHub](https://img.shields.io/badge/GitHub-itskaushikverma-181717?style=flat-square&logo=github)](https://github.com/itskaushikverma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/itskaushikverma-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/itskaushikverma)
+[![Twitter](https://img.shields.io/badge/Twitter-https://x.com/SilentK68296830-1DA1F2?style=flat-square&logo=twitter)](https://x.com/SilentK68296830)
 
   <p>Open to product feedback, collaboration, and thoughtful conversation.</p>
 </div>

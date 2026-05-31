@@ -57,19 +57,15 @@ async function main() {
       .replace('https://github.com/', '')
       .replace(/\/$/, '');
 
-    const variableSectionOneContent = `
-  <h4>
-    <a href="https://agecalculator-kv.netlify.app/">🚀 Live Demo</a>
-    <span> · </span>
-    <a href="https://github.com/${githubUsername}/age-calculator-app">📁 Repository</a>
-    <span> · </span>
-    <a href="https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q">🎯 Challenge</a>
-  </h4>
-    `;
+    const variableSectionOneContent = ({ filename }) => {
+      return `
+    <a href="https://github.com/${githubUsername}/frontend-mentor/tree/main/${filename}">📁 Repository</a>
+`;
+    };
 
     const variableSectionTwoContent = `
 \`\`\`bash
-git clone https://github.com/${githubUsername}/age-calculator-app.git
+git clone https://github.com/${githubUsername}/frontend-mentor.git
 \`\`\`
 `;
 
@@ -129,7 +125,12 @@ git clone https://github.com/${githubUsername}/age-calculator-app.git
       let updated = readme;
 
       const variableSectionOne = `<!-- VARIABLE_SECTION_1_START -->
-${variableSectionOneContent}
+${variableSectionOneContent({
+  filename: path
+    .relative(rootDirectory, readmePath)
+    .replace(/\\/g, '/')
+    .replace(/\/README\.md$/i, ''),
+})}
 <!-- VARIABLE_SECTION_1_END -->`;
 
       const variableSectionTwo = `<!-- VARIABLE_SECTION_2_START -->
