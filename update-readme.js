@@ -58,9 +58,7 @@ async function main() {
       .replace(/\/$/, '');
 
     const variableSectionOneContent = ({ filename }) => {
-      return `
-    <a href="https://github.com/${githubUsername}/frontend-mentor/tree/main/${filename}">📁 Repository</a>
-`;
+      return `    <a href="https://github.com/${githubUsername}/frontend-mentor/tree/main/${filename}">📁 Repository</a>`;
     };
 
     const variableSectionTwoContent = `
