@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="./public/favicon.svg" alt="IP Address Tracker logo" width="180" height="auto" />
-  <h1>IP Address Tracker</h1>
+  <img src="./public/favicon.svg" alt="QR Code Component" width="180" height="auto" />
+  <h1>QR Code Component</h1>
 
   <p>
-    A polished solution to the Frontend Mentor IP Address Tracker challenge, built with React, Vite, Tailwind CSS, and modern form validation.
+    A minimal, responsive QR Code component built with React, Vite and Tailwind CSS — a polished solution to the Frontend Mentor challenge.
   </p>
 
   <p>
@@ -15,7 +15,7 @@
   </p>
 
   <h4>
-    <a href="/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
+    <a href="https://qrcodecomponent-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
     <span> · </span>
 <!-- VARIABLE_SECTION_1_START -->
    
@@ -44,21 +44,14 @@
 
 ## ✨ About the Project
 
-This app calculates a user's exact age in years, months, and days based on a provided birth date.
-
-The project focuses on:
-
-- ✅ Clean, field-level validation
-- 📱 Responsive UI behavior across devices
-- 🎬 Smooth transitions and number animation
-- ♿ Accessible form interactions with clear error messaging
+This repository contains a small, accessible QR Code UI component. It demonstrates a focused component implementation with responsive layout, subtle animations, and utility-first styling using Tailwind CSS.
 
 <a id="screenshots"></a>
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./public/screenshot.jpg" alt="Age Calculator App Screenshot" />
+  <img src="./public/screenshot.jpg" alt="QR Code Component" />
 </div>
 
 <a id="tech-stack"></a>
@@ -77,13 +70,10 @@ The project focuses on:
 
 ## 🌟 Features
 
-Users can:
-
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-- Handle missing or invalid API keys gracefully with a custom input fallback
+- Responsive card layout for a QR code image
+- Subtle entrance animations
+- Simple, semantic HTML and accessible links
+- Tailwind utility classes for compact styles
 
 <a id="getting-started"></a>
 
@@ -105,7 +95,7 @@ Clone the project:
 Move into the project folder:
 
 ```bash
-cd age-calculator-app
+cd qr-code-component
 ```
 
 Install dependencies:
@@ -141,10 +131,7 @@ src/
   assets/
     svg/
   components/
-    InfoCard.jsx
-    MapSection.jsx
     MotionWrapper.jsx
-    TopBanner.jsx
 ```
 
 <a id="deployment"></a>
@@ -153,7 +140,7 @@ src/
 
 This project is deployed on Netlify:
 
-- <a href="https://ipaddresstracker-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://ipaddresstracker-kv.netlify.app/</a>
+- <a href="https://qrcodecomponent-kv.netlify.app/" target="_blank" rel="noopener noreferrer">https://qrcodecomponent-kv.netlify.app/</a>
 
 To create a production build locally:
 

@@ -32,11 +32,7 @@ export default function App() {
             transition={{ delay: 0.2, duration: 0.5, ease: 'backOut' }}
             className="mb-6 overflow-hidden rounded-xl"
           >
-            <img
-              src="/qr-code.png"
-              alt="QR Code"
-              className="mx-auto block h-[300px] w-[300px] rounded-xl"
-            />
+            <img src="/qr-code.png" alt="QR Code" className="mx-auto block h-75 w-75 rounded-xl" />
           </MotionDiv>
 
           <div className="flex flex-col gap-4 px-4 text-center">

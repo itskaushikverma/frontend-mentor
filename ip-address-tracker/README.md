@@ -44,21 +44,21 @@
 
 ## ✨ About the Project
 
-This app calculates a user's exact age in years, months, and days based on a provided birth date.
+This app lets users look up any IPv4/IPv6 address or domain and displays the geolocation on an interactive map along with key details such as IP, location, timezone, and ISP.
 
 The project focuses on:
 
-- ✅ Clean, field-level validation
-- 📱 Responsive UI behavior across devices
-- 🎬 Smooth transitions and number animation
-- ♿ Accessible form interactions with clear error messaging
+- 📍 Accurate geolocation display on a map
+- 🔎 Robust lookup for IPs and domains with clear error handling
+- 📱 Responsive UI across devices
+- ♿ Accessible interactions and semantic markup
 
 <a id="screenshots"></a>
 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./public/screenshot.jpg" alt="Age Calculator App Screenshot" />
+  <img src="./public/screenshot.jpg" alt="IP Address Tracker" />
 </div>
 
 <a id="tech-stack"></a>
@@ -79,11 +79,11 @@ The project focuses on:
 
 Users can:
 
-- View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
-- Handle missing or invalid API keys gracefully with a custom input fallback
+- Detect and display the visitor's IP on initial load with a map marker
+- Search by IPv4/IPv6 address or domain and view results immediately
+- See detailed information: IP, approximate location, timezone, and ISP
+- Interactive responsive map with a movable marker and zoom behavior
+- Robust validation and graceful error handling (including API key fallback)
 
 <a id="getting-started"></a>
 
@@ -109,7 +109,7 @@ git clone https://github.com/itskaushikverma/frontend-mentor.git
 Move into the project folder:
 
 ```bash
-cd age-calculator-app
+cd ip-address-tracker
 ```
 
 Install dependencies:
