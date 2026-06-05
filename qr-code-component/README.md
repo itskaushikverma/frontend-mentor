@@ -18,7 +18,7 @@
     <a href="https://qrcodecomponent-kv.netlify.app/" target="_blank" rel="noopener noreferrer">🚀 Live Demo</a>
     <span> · </span>
 <!-- VARIABLE_SECTION_1_START -->
-   
+    <a href="https://github.com/itskaushikverma/frontend-mentor/tree/main/qr-code-component">📁 Repository</a>
 <!-- VARIABLE_SECTION_1_END -->
     <span> · </span>
     <a href="https://www.frontendmentor.io/solutions/ip-address-tracker-main-fSC5EfIAz3">🎯 Challenge</a>
@@ -89,6 +89,10 @@ This repository contains a small, accessible QR Code UI component. It demonstrat
 Clone the project:
 
 <!-- VARIABLE_SECTION_2_START -->
+
+```bash
+git clone https://github.com/itskaushikverma/frontend-mentor.git
+```
 
 <!-- VARIABLE_SECTION_2_END -->
 
@@ -170,5 +174,31 @@ If you would like to contribute:
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 <!-- VARIABLE_SECTION_3_START -->
+
+<a id="contact"></a>
+
+## 👤 Author
+
+<div align="center">
+  <img src="https://github.com/itskaushikverma.png" alt="Developer" width="100" height="100" style="border-radius:50%; width:100px; height:100px; object-fit:cover; display:block;"/>
+  
+  <h3>Kaushik Verma</h3>
+  
+  <p><em>Building AI tools that turn long documents into clear decisions.</em></p>
+
+[![Email](https://img.shields.io/badge/Email-kaushikverma321@gmail.com%40gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:kaushikverma321@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Website-https://www.kaushikverma.com-000000?style=flat-square&logo=vercel)](https://www.kaushikverma.com)
+[![GitHub](https://img.shields.io/badge/GitHub-itskaushikverma-181717?style=flat-square&logo=github)](https://github.com/itskaushikverma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/itskaushikverma-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/itskaushikverma)
+[![Twitter](https://img.shields.io/badge/Twitter-https://x.com/SilentK68296830-1DA1F2?style=flat-square&logo=twitter)](https://x.com/SilentK68296830)
+
+  <p>Open to product feedback, collaboration, and thoughtful conversation.</p>
+</div>
+
+<div align="center">
+  <p>If you found this project helpful, please consider giving it a ⭐️</p>
+  
+  [![GitHub stars](https://img.shields.io/github/stars/itskaushikverma/frontend-mentor?style=social)](https://github.com/itskaushikverma/frontend-mentor)
+</div>
 
 <!-- VARIABLE_SECTION_3_END -->
