@@ -21,7 +21,7 @@
    
 <!-- VARIABLE_SECTION_1_END -->
     <span> · </span>
-    <a href="https://www.frontendmentor.io/solutions/ip-address-tracker-main-fSC5EfIAz3">🎯 Challenge</a>
+    <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">🎯 Challenge</a>
   </h4>
 
 </div>
